@@ -5,7 +5,7 @@ Project structure
 
 The project itself is (effectively) entirely contained in an R packge, 'OH-CASE'. 
 
-The `app.R` file is contained in `ociss/inst`, and is the script that is run by `run_app`. 
+The `app.R` file is contained in `/Inst`, and is the script that is run by `run_app`. 
 
 In general, data are left in the SQL server until they are necessary; this reduces overhead in the R session. Some objects, specifically those that are unaffected by user input, are created before the app itself is run. Again, this reduces overhead in the R session. 
 
